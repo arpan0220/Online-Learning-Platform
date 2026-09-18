@@ -36,27 +36,6 @@ A responsive and interactive **Online Learning Platform** developed using **HTML
 
 **JavaScript:** DOM manipulation, event handling, form validation, dynamic content rendering, application logic, and Local Storage.
 
-## Project Structure
-
-
-online-learning-platform/
-│
-├── index.html
-├── courses.html
-├── course-details.html
-├── student-dashboard.html
-├── admin-dashboard.html
-├── payment.html
-├── certificate.html
-│
-├── css/
-│   └── style.css
-│
-├── js/
-│   └── main.js
-│
-├── README.md
-
 ## Student Module
 
 The Student section allows users to:
