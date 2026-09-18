@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Student Dashboard | LearnHub</title>
+
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+<header class="site-header">
+
+    <nav class="navbar container">
+
+        <a href="../index.html" class="logo">
+            Learn<span>Hub</span>
+        </a>
+
+        <button class="menu-toggle" id="menuToggle">
+            ☰
+        </button>
+
+        <div class="nav-links" id="navLinks">
+
+            <a href="dashboard.html" class="active">
+                Dashboard
+            </a>
+
+            <a href="my-courses.html">
+                My Courses
+            </a>
+
+            <a href="profile.html">
+                Profile
+            </a>
+
+            <a href="../courses.html">
+                Browse Courses
+            </a>
+
+            <button
+                class="theme-btn"
+                id="themeToggle"
+                type="button">
+                🌙
+            </button>
+
+            <button
+                class="btn btn-small"
+                id="logoutBtn"
+                type="button">
+                Logout
+            </button>
+
+        </div>
+
+    </nav>
+
+</header>
+
+
+<main class="section">
+
+    <div class="container">
+
+        <div class="dashboard-header">
+
+            <div>
+
+                <span class="eyebrow">
+                    STUDENT DASHBOARD
+                </span>
+
+                <h1>
+                    Welcome,
+                    <span id="studentName">
+                        Student
+                    </span>
+                </h1>
+
+                <p>
+                    Continue learning and track your progress.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <div class="dashboard-stats">
+
+            <div class="stat-card">
+                <span>📚</span>
+                <strong id="enrolledCount">0</strong>
+                <small>Enrolled Courses</small>
+            </div>
+
+            <div class="stat-card">
+                <span>🏆</span>
+                <strong id="completedCount">0</strong>
+                <small>Completed Courses</small>
+            </div>
+
+            <div class="stat-card">
+                <span>📈</span>
+                <strong id="averageProgress">0%</strong>
+                <small>Average Progress</small>
+            </div>
+
+        </div>
+
+
+        <div class="section-heading">
+
+            <h2>
+                My Learning
+            </h2>
+
+        </div>
+
+
+        <div
+            id="dashboardCourses"
+            class="course-grid">
+        </div>
+
+    </div>
+
+</main>
+
+
+<footer class="footer">
+
+    <div class="copyright">
+        © <span id="year"></span> LearnHub
+    </div>
+
+</footer>
+
+
+<script src="../js/main.js"></script>
+<script src="../js/student.js"></script>
+
+</body>
+</html>

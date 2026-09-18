@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+    <title>
+        Profile | LearnHub
+    </title>
+
+    <link
+        rel="stylesheet"
+        href="../css/style.css">
+
+</head>
+
+<body>
+
+<header class="site-header">
+
+    <nav class="navbar container">
+
+        <a
+            href="../index.html"
+            class="logo">
+
+            Learn<span>Hub</span>
+
+        </a>
+
+        <div class="nav-links">
+
+            <a href="dashboard.html">
+                Dashboard
+            </a>
+
+            <a href="my-courses.html">
+                My Courses
+            </a>
+
+            <a
+                href="profile.html"
+                class="active">
+
+                Profile
+
+            </a>
+
+            <button
+                class="btn btn-small"
+                id="logoutBtn">
+
+                Logout
+
+            </button>
+
+        </div>
+
+    </nav>
+
+</header>
+
+
+<main class="section">
+
+    <div class="container">
+
+        <div class="section-heading">
+
+            <span class="eyebrow">
+                ACCOUNT
+            </span>
+
+            <h1>
+                My Profile
+            </h1>
+
+        </div>
+
+
+        <div class="form-card">
+
+            <form id="profileForm">
+
+                <label>
+
+                    Full Name
+
+                    <input
+                        type="text"
+                        id="profileName"
+                        required>
+
+                </label>
+
+
+                <label>
+
+                    Email
+
+                    <input
+                        type="email"
+                        id="profileEmail"
+                        disabled>
+
+                </label>
+
+
+                <label>
+
+                    Bio
+
+                    <textarea
+                        id="profileBio"
+                        rows="5"
+                        placeholder="Tell us about yourself">
+                    </textarea>
+
+                </label>
+
+
+                <button
+                    type="submit"
+                    class="btn">
+
+                    Save Changes
+
+                </button>
+
+            </form>
+
+        </div>
+
+    </div>
+
+</main>
+
+
+<script src="../js/main.js"></script>
+<script src="../js/student.js"></script>
+
+</body>
+</html>

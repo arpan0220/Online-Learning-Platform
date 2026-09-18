@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Course Details | LearnHub</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+    <header class="navbar">
+        <div class="container nav-container">
+
+            <a href="index.html" class="logo">
+                Learn<span>Hub</span>
+            </a>
+
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="courses.html">Courses</a>
+                <a href="login.html">Login</a>
+                <a href="register.html" class="nav-btn">Register</a>
+            </nav>
+
+            <button id="themeToggle" class="theme-toggle">
+                🌙
+            </button>
+
+        </div>
+    </header>
+
+
+    <!-- ================= COURSE DETAILS ================= -->
+
+    <main>
+
+        <section class="page-header">
+            <div class="container">
+
+                <h1>Course Details</h1>
+
+                <p>
+                    Explore the course details and start learning.
+                </p>
+
+            </div>
+        </section>
+
+
+        <section class="section">
+
+            <div class="container">
+
+                <!-- JavaScript will insert course information here -->
+                <div id="courseDetails">
+
+                    <div class="empty-state">
+                        <h2>Loading course...</h2>
+                        <p>Please wait.</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer class="footer">
+
+        <div class="container">
+
+            <p>
+                © <span id="year"></span> LearnHub. All rights reserved.
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <!-- IMPORTANT:
+         main.js MUST COME FIRST
+    -->
+
+    <script src="js/main.js"></script>
+    <script src="js/course-details.js"></script>
+
+</body>
+</html>

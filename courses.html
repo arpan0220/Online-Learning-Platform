@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+    <title>Courses | LearnHub</title>
+
+    <link
+        rel="stylesheet"
+        href="css/style.css">
+
+</head>
+
+<body>
+
+<header class="site-header">
+
+    <nav class="navbar container">
+
+        <a
+            class="logo"
+            href="index.html">
+            Learn<span>Hub</span>
+        </a>
+
+
+        <button
+            class="menu-toggle"
+            id="menuToggle">
+            ☰
+        </button>
+
+
+        <div
+            class="nav-links"
+            id="navLinks">
+
+            <a href="index.html">
+                Home
+            </a>
+
+            <a
+                href="courses.html"
+                class="active">
+                Courses
+            </a>
+
+            <a href="student/dashboard.html">
+                Dashboard
+            </a>
+
+            <a
+                href="login.html"
+                class="btn btn-small">
+                Login
+            </a>
+
+            <button
+                class="theme-btn"
+                id="themeToggle"
+                type="button">
+                🌙
+            </button>
+
+        </div>
+
+    </nav>
+
+</header>
+
+
+<main class="section">
+
+    <div class="container">
+
+        <div class="section-heading center">
+
+            <span class="eyebrow">
+                LEARNHUB LIBRARY
+            </span>
+
+            <h1>
+                Explore Courses
+            </h1>
+
+            <p>
+                Choose a course and start learning today.
+            </p>
+
+        </div>
+
+
+        <!-- SEARCH AND FILTER -->
+
+        <div class="filters">
+
+            <input
+                type="search"
+                id="courseSearch"
+                placeholder="Search courses...">
+
+
+            <select id="categoryFilter">
+
+                <option value="all">
+                    All Categories
+                </option>
+
+            </select>
+
+
+            <select id="levelFilter">
+
+                <option value="all">
+                    All Levels
+                </option>
+
+                <option value="Beginner">
+                    Beginner
+                </option>
+
+                <option value="Intermediate">
+                    Intermediate
+                </option>
+
+                <option value="Advanced">
+                    Advanced
+                </option>
+
+            </select>
+
+        </div>
+
+
+        <!-- COURSE CARDS -->
+
+        <div
+            id="courseGrid"
+            class="course-grid">
+        </div>
+
+
+        <div
+            id="emptyCourses"
+            class="empty hidden">
+
+            No courses match your search.
+
+        </div>
+
+    </div>
+
+</main>
+
+
+<footer class="footer">
+
+    <div class="copyright">
+
+        ©
+        <span id="year"></span>
+        LearnHub
+
+    </div>
+
+</footer>
+
+
+<script src="js/main.js"></script>
+
+<script src="js/courses.js"></script>
+
+</body>
+
+</html>
